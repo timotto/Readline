@@ -11,6 +11,7 @@ public:
 //	virtual ~ReadLine();
 	
 	char* feed(Stream *stream);
+	char *feed(char c);
 private:
 	char buffer[READLINE_MAX];
 	int bpos;
